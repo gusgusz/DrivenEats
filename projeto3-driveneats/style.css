@@ -8,7 +8,9 @@ body {
 
 }
 
-
+.ctrn-conteudo {
+    margin= 100px 0 100px 0;
+}
 
 p{
     font-family: Righteous;
@@ -20,8 +22,9 @@ p{
 .topo-logo {
     display: flex;
     flex-direction: column;
-    left: 20px;
-    top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
     bottom: 25px;
     background-color: #CF2B2B;
     width: 100%;
@@ -53,16 +56,39 @@ p{
     padding: 20px;
   
 }
+
+.opçoes:first-child{
+    margin-top: 100px;
+    
+}
+.final {
+    padding-bottom: 160px;
+    
+}
+
+
 .rolamento-opçoes {
     display: flex;
     overflow: hidden;
+    overflow-x: scroll;
     flex-wrap: nowrap;
     
 }
-.rolamento-opçoes .selecionado {
+.rolamento-opçoes .selecionado-comida {
     border: 3px solid #32B72F;
     
 }
+
+.rolamento-opçoes .selecionado-bebida {
+    border: 3px solid #32B72F;
+    
+}
+
+.rolamento-opçoes .selecionado-sobremesa {
+    border: 3px solid #32B72F;
+    
+}
+
 .opçao {
     display: flex;
     flex-direction: column;
@@ -100,7 +126,7 @@ p{
     color: #a6a6a6;
 }
 
-.opçao > R1 {
+.opçao > h6 {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -110,6 +136,10 @@ p{
 
 
 .ctrn-confirmaçao {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #ffffff;
     padding: 18px;
     height: 92px;
@@ -133,5 +163,8 @@ p{
 }
 
 
-
+.ctrn-confirmaçao  button.selecionado-tudo {
+    background-color: #32B72F;
+    color: #ffffff;
+}
 
