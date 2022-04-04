@@ -4,6 +4,8 @@ let preçoBebida = null;
 let selecionadoComida;
 let selecionadoBebida;
 let selecionadoSobremesa;
+let numero = prompt("Qual o seu número do whatsaap? (Não coloque o 0 na frente do DDD; ex: 48123451234");
+        let nome = promp("Qual o seu nome?");
 
 
 function escolherPrato (comida){
@@ -68,4 +70,18 @@ if((preçoComida !== null) && (preçoBebida !== null) && (preçoSobremesa !== nu
     botao.classList.add("selecionado-tudo");
     
 }
+}
+function escolher (){
+    if((preçoComida !== null) && (preçoBebida !== null) && (preçoSobremesa !== null)) {
+        const el = document.querySelector(".escondido");
+        el.classList.remove("escondido");
+
+        document.querySelector(".ctnr").classList.add("escondido")
+       
+
+    }
+    else {
+        alert("voce deve marcar todas as opçoes");
+    }
+
 }

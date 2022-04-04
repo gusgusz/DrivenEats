@@ -5,11 +5,13 @@
 }
 body {
     background-color: #e5e5e5;
+    z-index: 1;
 
 }
 
 .ctrn-conteudo {
     margin= 100px 0 100px 0;
+    
 }
 
 p{
@@ -166,5 +168,26 @@ p{
 .ctrn-confirmaçao  button.selecionado-tudo {
     background-color: #32B72F;
     color: #ffffff;
+}
+.finalizar {
+    display: flex;
+    flex-direction: column;
+    background-color: #32B72F;
+    justify-content: space-between;
+    border-radius: 9px;
+    z-index: 3;
+    position:fixed;
+    align-items: center;
+
+}
+finalizar div > h1 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+
+.escondido {
+    display: none;
 }
 
