@@ -59,6 +59,10 @@ p{
     flex-wrap: nowrap;
     
 }
+.rolamento-opçoes .selecionado {
+    border: 3px solid #32B72F;
+    
+}
 .opçao {
     display: flex;
     flex-direction: column;
@@ -67,11 +71,14 @@ p{
 
     width: 172px;
     height: 216px;
-    padding: 18px;
+    
     margin: 20px;
     border-radius: 9px;
+    
     background-color: #ffffff;
 }
+
+
 
 .opçao img {
     width: 140px;
@@ -100,6 +107,8 @@ p{
     color: black;
 }
 
+
+
 .ctrn-confirmaçao {
     background-color: #ffffff;
     padding: 18px;
@@ -122,4 +131,7 @@ p{
     
 
 }
+
+
+
 
